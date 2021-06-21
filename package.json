@@ -1,0 +1,25 @@
+{
+  "name": "portor",
+  "version": "1.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node-dev index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "got": "^9.6.0",
+    "jsdom": "^16.6.0",
+    "lru-cache": "^6.0.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
+    "tough-cookie": "^4.0.0"
+  },
+  "devDependencies": {
+    "node-dev": "^6.7.0"
+  }
+}
